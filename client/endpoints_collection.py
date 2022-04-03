@@ -1,0 +1,12 @@
+_PREFIX_PUBLIC = '/0/public'
+_PREFIX_PRIVATE = '/0/private'
+_PREFIX_PRIVATE_DEMO = '/derivatives/api/v3'
+
+SERVER_TIME = f'{_PREFIX_PUBLIC}/Time'
+SYSTEM_STATUS = f'{_PREFIX_PUBLIC}/SystemStatus'
+ASSET_INFO = f'{_PREFIX_PUBLIC}/Assets'
+ASSET_PAIRS = f'{_PREFIX_PUBLIC}/AssetPairs'
+OPEN_ORDERS = f'{_PREFIX_PRIVATE}/OpenOrders'
+SEND_ORDERS = f'{_PREFIX_PRIVATE}/sendorder'
+
+OPEN_ORDERS_DEMO = f'{_PREFIX_PRIVATE_DEMO}/openorders'
