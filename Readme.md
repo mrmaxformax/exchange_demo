@@ -1,5 +1,5 @@
 
-###My assumptions are:
+### My assumptions are:
 1. I don't test how API handles incorrect requests and if it can return the valid status code because:
 - It always returns 200.
 - Based on the requirements, the testing scope is validation of the valid responses.
